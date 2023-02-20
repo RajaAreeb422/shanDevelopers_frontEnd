@@ -1,0 +1,87 @@
+
+.body {
+   
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.html, .body {
+    /* background-color: #152733; */
+    background-image: url('../public/main.jpeg');
+    background-size: cover;
+    opacity: 0.8;
+}
+.formItems{
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 56px;
+    background: linear-gradient(black,gold);
+}
+.formItems h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.formItems p{
+    color: white;
+    
+}
+.formBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+    
+}
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.formFiled input[type=text]{
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+.btnPrimary{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.btnPrimary:hover{
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+
+
+@media screen and (max-width: 760px) {
+
+   
+    .mainDiv{
+        
+   flex-direction: column !important;
+    
+    }
+}
